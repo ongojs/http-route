@@ -24,5 +24,15 @@
   "bugs": {
     "url": "https://github.com/ongojs/http-route/issues"
   },
-  "homepage": "https://github.com/ongojs/http-route#readme"
+  "homepage": "https://github.com/ongojs/http-route#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "@ongojs/controller": "../controller",
+    "@ongojs/http-controller": "../http-controller",
+    "@ongojs/lib": "../lib"
+  }
 }
