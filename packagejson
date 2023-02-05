@@ -1,0 +1,39 @@
+{
+  "name": "@mongodb-model/http-route",
+  "version": "0.0.0",
+  "description": "http-route",
+  "main": "index.js",
+  "bin": {
+    "http-route": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/http-route.git"
+  },
+  "keywords": [
+    "http-route",
+    "stream",
+    "stransform",
+    "duplex",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/http-route/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/http-route#readme",
+  "dependencies": {
+    "@mongodb-model/controller": "^0.0.0",
+    "@mongodb-model/http-controller": "^0.0.0",
+    "@mongodb-model/lib": "^0.0.10000",
+    "dotenv": "16.0.3",
+    "vitest": "0.25.1"
+  }
+}

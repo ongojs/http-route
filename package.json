@@ -1,0 +1,28 @@
+{
+  "name": "@ongojs/http-route",
+  "version": "0.0.0",
+  "description": "http-route",
+  "main": "index.js",
+  "bin": {
+    "http-route": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/http-route.git"
+  },
+  "keywords": [
+    "http-route"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/http-route/issues"
+  },
+  "homepage": "https://github.com/ongojs/http-route#readme"
+}
